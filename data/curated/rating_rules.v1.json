@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "scale": "50-100",
+  "description": "Relative strength within the era",
+  "note": "Refer to docs/RATING_METHODOLOGY.md for the full specification."
+}

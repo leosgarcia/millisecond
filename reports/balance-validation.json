@@ -1,0 +1,2027 @@
+{
+  "generatedAt": "2026-06-28T23:54:55.678Z",
+  "dataVersion": "curated-v1",
+  "config": {
+    "mode": "smoke",
+    "runs": 1,
+    "difficulty": "standard",
+    "championshipFormat": "standard",
+    "seedBase": "balance-validation-smoke"
+  },
+  "summary": {
+    "status": "Crítico",
+    "totalSimulations": 1,
+    "playerWinRate": 0,
+    "averagePlayerPoints": 119,
+    "averagePlayerPosition": 4,
+    "mainAlerts": [
+      {
+        "severity": "critical",
+        "code": "dominant-driver",
+        "title": "Piloto dominante",
+        "message": "Nick Heidfeld venceu mais de 35% dos campeonatos da bateria.",
+        "context": {
+          "share": 1
+        }
+      },
+      {
+        "severity": "critical",
+        "code": "dominant-constructor",
+        "title": "Chassi dominante",
+        "message": "McLaren MP4-20 aparece em mais de 35% dos campeões de construtores.",
+        "context": {
+          "share": 1
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "secondary-driver-irrelevant",
+        "title": "Segundo piloto irrelevante",
+        "message": "O segundo piloto aparece com menos de 15% da eficiência do líder do grid."
+      },
+      {
+        "severity": "warning",
+        "code": "development-flat",
+        "title": "Development package sem progressão",
+        "message": "A filosofia development-focused não está superando a baseline no terço final esperado."
+      },
+      {
+        "severity": "warning",
+        "code": "monza-no-power",
+        "title": "Monza sem motor forte",
+        "message": "Monza não está sendo claramente premiada por pacotes de potência."
+      }
+    ],
+    "recommendations": [
+      "Considere aliviar o peso do piloto principal ou aumentar a importância do chassi, do motor e da filosofia.",
+      "Considere revisar calculateCarTrackFit ou reduzir o impacto do overall do chassi em circuitos mistos.",
+      "Considere aumentar a sensibilidade de power_track, coolingDemand e racePaceSustainability.",
+      "Segundo piloto ainda contribui pouco para o Mundial. Vale revisar o peso de driverSecondary e teamPlay.",
+      "Development-focused não está deixando o carro mais forte no fim da temporada. Considere reforçar a progressão por fase.",
+      "Monza não está premiando potência o bastante. Reforce calculateEngineTrackFit para power_track."
+    ]
+  },
+  "distribution": {
+    "difficulties": [
+      {
+        "difficulty": "casual",
+        "runs": 0,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 0,
+        "averagePlayerPosition": 0
+      },
+      {
+        "difficulty": "standard",
+        "runs": 1,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 119,
+        "averagePlayerPosition": 4
+      },
+      {
+        "difficulty": "hard",
+        "runs": 0,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 0,
+        "averagePlayerPosition": 0
+      },
+      {
+        "difficulty": "legend",
+        "runs": 0,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 0,
+        "averagePlayerPosition": 0
+      }
+    ],
+    "formats": [
+      {
+        "format": "quick",
+        "runs": 0,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 0,
+        "averagePlayerPosition": 0
+      },
+      {
+        "format": "standard",
+        "runs": 1,
+        "playerWinRate": 0,
+        "averagePlayerPoints": 119,
+        "averagePlayerPosition": 4
+      }
+    ]
+  },
+  "champions": {
+    "drivers": [
+      {
+        "id": "driver-nick-heidfeld-2007",
+        "name": "Nick Heidfeld",
+        "wins": 1,
+        "share": 1
+      },
+      {
+        "id": "driver-raikkonen-2005",
+        "name": "Kimi Raikkonen",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-riccardo_patrese-1992-sec",
+        "name": "Riccardo Patrese",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-senna-1988",
+        "name": "Ayrton Senna",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-bottas-2020",
+        "name": "Valtteri Bottas",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-jacques-villeneuve-1997",
+        "name": "Jacques Villeneuve",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-damon-hill-1996",
+        "name": "Damon Hill",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-clay-regazzoni-1974",
+        "name": "Clay Regazzoni",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-clark-1965",
+        "name": "Jim Clark",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-coulthard-1998",
+        "name": "David Coulthard",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-jackie-stewart-1971",
+        "name": "Jackie Stewart",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-rubens_barrichello-2004-sec",
+        "name": "Rubens Barrichello",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-verstappen-2023",
+        "name": "Max Verstappen",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-eddie-cheever-1983",
+        "name": "Eddie Cheever",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-fangio-1957",
+        "name": "Juan Manuel Fangio",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-thierry-boutsen-1989",
+        "name": "Thierry Boutsen",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-prost-1986",
+        "name": "Alain Prost",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-sainz-2022",
+        "name": "Carlos Sainz",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-schumacher-1995",
+        "name": "Michael Schumacher",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "driver-heinz-harald-frentzen-1999",
+        "name": "Heinz-Harald Frentzen",
+        "wins": 0,
+        "share": 0
+      }
+    ],
+    "constructors": [
+      {
+        "id": "car-mclaren-mp420-2005",
+        "name": "McLaren MP4-20",
+        "wins": 1,
+        "share": 1
+      },
+      {
+        "id": "car-mclaren-mp44-1988",
+        "name": "McLaren MP4/4",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-ferrari-f2007-2007",
+        "name": "Ferrari F2007",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-ferrari-f175-2022",
+        "name": "Ferrari F1-75",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-mercedes-w11-2020",
+        "name": "Mercedes-AMG F1 W11 EQ Performance",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-mclaren-mp423-2008",
+        "name": "McLaren MP4-23",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-mclaren-mcl38-2024",
+        "name": "McLaren MCL38",
+        "wins": 0,
+        "share": 0
+      },
+      {
+        "id": "car-benetton-b194-1994",
+        "name": "Benetton B194",
+        "wins": 0,
+        "share": 0
+      }
+    ]
+  },
+  "entities": {
+    "driver": [
+      {
+        "id": "driver-nick-heidfeld-2007",
+        "name": "Nick Heidfeld",
+        "budgetCost": 112,
+        "appearances": 1,
+        "wins": 1,
+        "podiums": 1,
+        "dnfs": 3,
+        "points": 174,
+        "championshipWins": 1,
+        "positions": [
+          1
+        ],
+        "averagePoints": 174,
+        "averagePosition": 1,
+        "pointsPerBudget": 1.5535714285714286,
+        "dnfRate": 3,
+        "podiumRate": 1
+      },
+      {
+        "id": "driver-prost-1986",
+        "name": "Alain Prost",
+        "budgetCost": 218,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 1,
+        "points": 140,
+        "championshipWins": 0,
+        "positions": [
+          2
+        ],
+        "averagePoints": 140,
+        "averagePosition": 2,
+        "pointsPerBudget": 0.6422018348623854,
+        "dnfRate": 1,
+        "podiumRate": 1
+      },
+      {
+        "id": "driver-jacques-villeneuve-1997",
+        "name": "Jacques Villeneuve",
+        "budgetCost": 165,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 5,
+        "points": 132,
+        "championshipWins": 0,
+        "positions": [
+          3
+        ],
+        "averagePoints": 132,
+        "averagePosition": 3,
+        "pointsPerBudget": 0.8,
+        "dnfRate": 5,
+        "podiumRate": 1
+      },
+      {
+        "id": "driver-damon-hill-1996",
+        "name": "Damon Hill",
+        "budgetCost": 165,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 92,
+        "championshipWins": 0,
+        "positions": [
+          4
+        ],
+        "averagePoints": 92,
+        "averagePosition": 4,
+        "pointsPerBudget": 0.5575757575757576,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-verstappen-2023",
+        "name": "Max Verstappen",
+        "budgetCost": 228,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 91,
+        "championshipWins": 0,
+        "positions": [
+          5
+        ],
+        "averagePoints": 91,
+        "averagePosition": 5,
+        "pointsPerBudget": 0.3991228070175439,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-jackie-stewart-1971",
+        "name": "Jackie Stewart",
+        "budgetCost": 205,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 1,
+        "points": 76,
+        "championshipWins": 0,
+        "positions": [
+          6
+        ],
+        "averagePoints": 76,
+        "averagePosition": 6,
+        "pointsPerBudget": 0.37073170731707317,
+        "dnfRate": 1,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-raikkonen-2005",
+        "name": "Kimi Raikkonen",
+        "budgetCost": 205,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 70,
+        "championshipWins": 0,
+        "positions": [
+          7
+        ],
+        "averagePoints": 70,
+        "averagePosition": 7,
+        "pointsPerBudget": 0.34146341463414637,
+        "dnfRate": 3,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-schumacher-1995",
+        "name": "Michael Schumacher",
+        "budgetCost": 225,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 4,
+        "points": 66,
+        "championshipWins": 0,
+        "positions": [
+          8
+        ],
+        "averagePoints": 66,
+        "averagePosition": 8,
+        "pointsPerBudget": 0.29333333333333333,
+        "dnfRate": 4,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-senna-1988",
+        "name": "Ayrton Senna",
+        "budgetCost": 225,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 1,
+        "points": 65,
+        "championshipWins": 0,
+        "positions": [
+          9
+        ],
+        "averagePoints": 65,
+        "averagePosition": 9,
+        "pointsPerBudget": 0.28888888888888886,
+        "dnfRate": 1,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-sainz-2022",
+        "name": "Carlos Sainz",
+        "budgetCost": 124,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 1,
+        "points": 60,
+        "championshipWins": 0,
+        "positions": [
+          10
+        ],
+        "averagePoints": 60,
+        "averagePosition": 10,
+        "pointsPerBudget": 0.4838709677419355,
+        "dnfRate": 1,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-riccardo_patrese-1992-sec",
+        "name": "Riccardo Patrese",
+        "budgetCost": 112,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 49,
+        "championshipWins": 0,
+        "positions": [
+          11
+        ],
+        "averagePoints": 49,
+        "averagePosition": 11,
+        "pointsPerBudget": 0.4375,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-fangio-1957",
+        "name": "Juan Manuel Fangio",
+        "budgetCost": 215,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 1,
+        "points": 44,
+        "championshipWins": 0,
+        "positions": [
+          12
+        ],
+        "averagePoints": 44,
+        "averagePosition": 12,
+        "pointsPerBudget": 0.20465116279069767,
+        "dnfRate": 1,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-clay-regazzoni-1974",
+        "name": "Clay Regazzoni",
+        "budgetCost": 95,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 4,
+        "points": 38,
+        "championshipWins": 0,
+        "positions": [
+          13
+        ],
+        "averagePoints": 38,
+        "averagePosition": 13,
+        "pointsPerBudget": 0.4,
+        "dnfRate": 4,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-heinz-harald-frentzen-1999",
+        "name": "Heinz-Harald Frentzen",
+        "budgetCost": 130,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 35,
+        "championshipWins": 0,
+        "positions": [
+          14
+        ],
+        "averagePoints": 35,
+        "averagePosition": 14,
+        "pointsPerBudget": 0.2692307692307692,
+        "dnfRate": 3,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-bottas-2020",
+        "name": "Valtteri Bottas",
+        "budgetCost": 122,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 1,
+        "points": 28,
+        "championshipWins": 0,
+        "positions": [
+          15
+        ],
+        "averagePoints": 28,
+        "averagePosition": 15,
+        "pointsPerBudget": 0.22950819672131148,
+        "dnfRate": 1,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-rubens_barrichello-2004-sec",
+        "name": "Rubens Barrichello",
+        "budgetCost": 128,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 25,
+        "championshipWins": 0,
+        "positions": [
+          16
+        ],
+        "averagePoints": 25,
+        "averagePosition": 16,
+        "pointsPerBudget": 0.1953125,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-clark-1965",
+        "name": "Jim Clark",
+        "budgetCost": 220,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 4,
+        "points": 20,
+        "championshipWins": 0,
+        "positions": [
+          17
+        ],
+        "averagePoints": 20,
+        "averagePosition": 17,
+        "pointsPerBudget": 0.09090909090909091,
+        "dnfRate": 4,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-coulthard-1998",
+        "name": "David Coulthard",
+        "budgetCost": 112,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 4,
+        "points": 4,
+        "championshipWins": 0,
+        "positions": [
+          18
+        ],
+        "averagePoints": 4,
+        "averagePosition": 18,
+        "pointsPerBudget": 0.03571428571428571,
+        "dnfRate": 4,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-thierry-boutsen-1989",
+        "name": "Thierry Boutsen",
+        "budgetCost": 105,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 2,
+        "championshipWins": 0,
+        "positions": [
+          19
+        ],
+        "averagePoints": 2,
+        "averagePosition": 19,
+        "pointsPerBudget": 0.01904761904761905,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "driver-eddie-cheever-1983",
+        "name": "Eddie Cheever",
+        "budgetCost": 70,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 1,
+        "championshipWins": 0,
+        "positions": [
+          20
+        ],
+        "averagePoints": 1,
+        "averagePosition": 20,
+        "pointsPerBudget": 0.014285714285714285,
+        "dnfRate": 3,
+        "podiumRate": 0
+      }
+    ],
+    "car": [
+      {
+        "id": "car-mclaren-mp420-2005",
+        "name": "McLaren MP4-20",
+        "budgetCost": 230,
+        "appearances": 2,
+        "wins": 1,
+        "podiums": 1,
+        "dnfs": 16,
+        "points": 425,
+        "championshipWins": 1,
+        "positions": [
+          4,
+          1
+        ],
+        "averagePoints": 212.5,
+        "averagePosition": 2.5,
+        "pointsPerBudget": 0.9239130434782609,
+        "dnfRate": 8,
+        "podiumRate": 0.5
+      },
+      {
+        "id": "car-ferrari-f175-2022",
+        "name": "Ferrari F1-75",
+        "budgetCost": 210,
+        "appearances": 2,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 10,
+        "points": 224,
+        "championshipWins": 0,
+        "positions": [
+          10,
+          2
+        ],
+        "averagePoints": 112,
+        "averagePosition": 6,
+        "pointsPerBudget": 0.5333333333333333,
+        "dnfRate": 5,
+        "podiumRate": 0.5
+      },
+      {
+        "id": "car-ferrari-f2007-2007",
+        "name": "Ferrari F2007",
+        "budgetCost": 223,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 9,
+        "points": 130,
+        "championshipWins": 0,
+        "positions": [
+          3
+        ],
+        "averagePoints": 130,
+        "averagePosition": 3,
+        "pointsPerBudget": 0.5829596412556054,
+        "dnfRate": 9,
+        "podiumRate": 1
+      },
+      {
+        "id": "car-mercedes-w11-2020",
+        "name": "Mercedes-AMG F1 W11 EQ Performance",
+        "budgetCost": 250,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          5
+        ],
+        "averagePoints": 101,
+        "averagePosition": 5,
+        "pointsPerBudget": 0.404,
+        "dnfRate": 3,
+        "podiumRate": 0
+      },
+      {
+        "id": "car-benetton-b194-1994",
+        "name": "Benetton B194",
+        "budgetCost": 210,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 7,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          6
+        ],
+        "averagePoints": 101,
+        "averagePosition": 6,
+        "pointsPerBudget": 0.48095238095238096,
+        "dnfRate": 7,
+        "podiumRate": 0
+      },
+      {
+        "id": "car-mclaren-mp44-1988",
+        "name": "McLaren MP4/4",
+        "budgetCost": 243,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 93,
+        "championshipWins": 0,
+        "positions": [
+          7
+        ],
+        "averagePoints": 93,
+        "averagePosition": 7,
+        "pointsPerBudget": 0.38271604938271603,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "car-mclaren-mp423-2008",
+        "name": "McLaren MP4-23",
+        "budgetCost": 217,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 92,
+        "championshipWins": 0,
+        "positions": [
+          8
+        ],
+        "averagePoints": 92,
+        "averagePosition": 8,
+        "pointsPerBudget": 0.423963133640553,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "car-mclaren-mcl38-2024",
+        "name": "McLaren MCL38",
+        "budgetCost": 223,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 46,
+        "championshipWins": 0,
+        "positions": [
+          9
+        ],
+        "averagePoints": 46,
+        "averagePosition": 9,
+        "pointsPerBudget": 0.2062780269058296,
+        "dnfRate": 3,
+        "podiumRate": 0
+      }
+    ],
+    "engine": [
+      {
+        "id": "engine-renault-ef15b-1986",
+        "name": "Renault EF15B 1.5 V6 Turbo 1986",
+        "budgetCost": 140,
+        "appearances": 1,
+        "wins": 1,
+        "podiums": 1,
+        "dnfs": 8,
+        "points": 306,
+        "championshipWins": 1,
+        "positions": [
+          1
+        ],
+        "averagePoints": 306,
+        "averagePosition": 1,
+        "pointsPerBudget": 2.1857142857142855,
+        "dnfRate": 8,
+        "podiumRate": 1
+      },
+      {
+        "id": "engine-ferrari-tipo053-2004",
+        "name": "Ferrari Tipo 053 3.0 V10 2004",
+        "budgetCost": 178,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 2,
+        "points": 200,
+        "championshipWins": 0,
+        "positions": [
+          2
+        ],
+        "averagePoints": 200,
+        "averagePosition": 2,
+        "pointsPerBudget": 1.1235955056179776,
+        "dnfRate": 2,
+        "podiumRate": 1
+      },
+      {
+        "id": "engine-peugeot-a20-2000",
+        "name": "Peugeot A20 3.0 V10 2000",
+        "budgetCost": 68,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 9,
+        "points": 130,
+        "championshipWins": 0,
+        "positions": [
+          3
+        ],
+        "averagePoints": 130,
+        "averagePosition": 3,
+        "pointsPerBudget": 1.911764705882353,
+        "dnfRate": 9,
+        "podiumRate": 1
+      },
+      {
+        "id": "engine-ferrari-tipo051-2002",
+        "name": "Ferrari Tipo 051 3.0 V10 2002",
+        "budgetCost": 166,
+        "appearances": 2,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 11,
+        "points": 125,
+        "championshipWins": 0,
+        "positions": [
+          10,
+          5
+        ],
+        "averagePoints": 62.5,
+        "averagePosition": 7.5,
+        "pointsPerBudget": 0.37650602409638556,
+        "dnfRate": 5.5,
+        "podiumRate": 0
+      },
+      {
+        "id": "engine-renault-rs27-2011",
+        "name": "Renault RS27 2.4 V8 2011",
+        "budgetCost": 147,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 8,
+        "points": 119,
+        "championshipWins": 0,
+        "positions": [
+          4
+        ],
+        "averagePoints": 119,
+        "averagePosition": 4,
+        "pointsPerBudget": 0.8095238095238095,
+        "dnfRate": 8,
+        "podiumRate": 0
+      },
+      {
+        "id": "engine-mercedes-fo108w-2009",
+        "name": "Mercedes FO108W 2.4 V8 2009",
+        "budgetCost": 162,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 7,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          6
+        ],
+        "averagePoints": 101,
+        "averagePosition": 6,
+        "pointsPerBudget": 0.6234567901234568,
+        "dnfRate": 7,
+        "podiumRate": 0
+      },
+      {
+        "id": "engine-ford-zetec-r-1994",
+        "name": "Ford Zetec-R 3.5 V8 1994",
+        "budgetCost": 105,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 93,
+        "championshipWins": 0,
+        "positions": [
+          7
+        ],
+        "averagePoints": 93,
+        "averagePosition": 7,
+        "pointsPerBudget": 0.8857142857142857,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "engine-ferrari-066-7-2022",
+        "name": "Ferrari 066/7 1.6 V6 Turbo Hybrid 2022",
+        "budgetCost": 150,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 92,
+        "championshipWins": 0,
+        "positions": [
+          8
+        ],
+        "averagePoints": 92,
+        "averagePosition": 8,
+        "pointsPerBudget": 0.6133333333333333,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "engine-supertec-fb01-1999",
+        "name": "Supertec FB01 3.0 V10 1999",
+        "budgetCost": 82,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 46,
+        "championshipWins": 0,
+        "positions": [
+          9
+        ],
+        "averagePoints": 46,
+        "averagePosition": 9,
+        "pointsPerBudget": 0.5609756097560976,
+        "dnfRate": 3,
+        "podiumRate": 0
+      }
+    ],
+    "teamPrincipal": [
+      {
+        "id": "principal-ken-tyrrell",
+        "name": "Ken Tyrrell",
+        "budgetCost": 88,
+        "appearances": 2,
+        "wins": 1,
+        "podiums": 1,
+        "dnfs": 13,
+        "points": 398,
+        "championshipWins": 1,
+        "positions": [
+          1,
+          8
+        ],
+        "averagePoints": 199,
+        "averagePosition": 4.5,
+        "pointsPerBudget": 2.2613636363636362,
+        "dnfRate": 6.5,
+        "podiumRate": 0.5
+      },
+      {
+        "id": "principal-enzo-ferrari",
+        "name": "Enzo Ferrari",
+        "budgetCost": 96,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 2,
+        "points": 200,
+        "championshipWins": 0,
+        "positions": [
+          2
+        ],
+        "averagePoints": 200,
+        "averagePosition": 2,
+        "pointsPerBudget": 2.0833333333333335,
+        "dnfRate": 2,
+        "podiumRate": 1
+      },
+      {
+        "id": "principal-ron-dennis",
+        "name": "Ron Dennis",
+        "budgetCost": 106,
+        "appearances": 2,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 10,
+        "points": 147,
+        "championshipWins": 0,
+        "positions": [
+          9,
+          6
+        ],
+        "averagePoints": 73.5,
+        "averagePosition": 7.5,
+        "pointsPerBudget": 0.6933962264150944,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "principal-ross-brawn",
+        "name": "Ross Brawn",
+        "budgetCost": 112,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 9,
+        "points": 130,
+        "championshipWins": 0,
+        "positions": [
+          3
+        ],
+        "averagePoints": 130,
+        "averagePosition": 3,
+        "pointsPerBudget": 1.1607142857142858,
+        "dnfRate": 9,
+        "podiumRate": 1
+      },
+      {
+        "id": "principal-flavio-briatore",
+        "name": "Flavio Briatore",
+        "budgetCost": 82,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 8,
+        "points": 119,
+        "championshipWins": 0,
+        "positions": [
+          4
+        ],
+        "averagePoints": 119,
+        "averagePosition": 4,
+        "pointsPerBudget": 1.451219512195122,
+        "dnfRate": 8,
+        "podiumRate": 0
+      },
+      {
+        "id": "principal-mattia-binotto",
+        "name": "Mattia Binotto",
+        "budgetCost": 68,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          5
+        ],
+        "averagePoints": 101,
+        "averagePosition": 5,
+        "pointsPerBudget": 1.4852941176470589,
+        "dnfRate": 3,
+        "podiumRate": 0
+      },
+      {
+        "id": "principal-colin-chapman",
+        "name": "Colin Chapman",
+        "budgetCost": 88,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 2,
+        "points": 93,
+        "championshipWins": 0,
+        "positions": [
+          7
+        ],
+        "averagePoints": 93,
+        "averagePosition": 7,
+        "pointsPerBudget": 1.0568181818181819,
+        "dnfRate": 2,
+        "podiumRate": 0
+      },
+      {
+        "id": "principal-zak-brown",
+        "name": "Zak Brown",
+        "budgetCost": 86,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 8,
+        "points": 24,
+        "championshipWins": 0,
+        "positions": [
+          10
+        ],
+        "averagePoints": 24,
+        "averagePosition": 10,
+        "pointsPerBudget": 0.27906976744186046,
+        "dnfRate": 8,
+        "podiumRate": 0
+      }
+    ],
+    "technicalDirector": [
+      {
+        "id": "director-adrian-newey",
+        "name": "Adrian Newey",
+        "budgetCost": 150,
+        "appearances": 2,
+        "wins": 1,
+        "podiums": 2,
+        "dnfs": 10,
+        "points": 506,
+        "championshipWins": 1,
+        "positions": [
+          1,
+          2
+        ],
+        "averagePoints": 253,
+        "averagePosition": 1.5,
+        "pointsPerBudget": 1.6866666666666668,
+        "dnfRate": 5,
+        "podiumRate": 1
+      },
+      {
+        "id": "director-pierre-wache",
+        "name": "Pierre Waché",
+        "budgetCost": 116,
+        "appearances": 2,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 139,
+        "championshipWins": 0,
+        "positions": [
+          7,
+          9
+        ],
+        "averagePoints": 69.5,
+        "averagePosition": 8,
+        "pointsPerBudget": 0.5991379310344828,
+        "dnfRate": 2.5,
+        "podiumRate": 0
+      },
+      {
+        "id": "director-gerard-ducarouge",
+        "name": "Gérard Ducarouge",
+        "budgetCost": 98,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 9,
+        "points": 130,
+        "championshipWins": 0,
+        "positions": [
+          3
+        ],
+        "averagePoints": 130,
+        "averagePosition": 3,
+        "pointsPerBudget": 1.3265306122448979,
+        "dnfRate": 9,
+        "podiumRate": 1
+      },
+      {
+        "id": "director-mauro-forghieri",
+        "name": "Mauro Forghieri",
+        "budgetCost": 118,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 8,
+        "points": 119,
+        "championshipWins": 0,
+        "positions": [
+          4
+        ],
+        "averagePoints": 119,
+        "averagePosition": 4,
+        "pointsPerBudget": 1.0084745762711864,
+        "dnfRate": 8,
+        "podiumRate": 0
+      },
+      {
+        "id": "director-ross-brawn-td",
+        "name": "Ross Brawn (TD Archetype)",
+        "budgetCost": 112,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 3,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          5
+        ],
+        "averagePoints": 101,
+        "averagePosition": 5,
+        "pointsPerBudget": 0.9017857142857143,
+        "dnfRate": 3,
+        "podiumRate": 0
+      },
+      {
+        "id": "director-james-allison",
+        "name": "James Allison",
+        "budgetCost": 118,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 7,
+        "points": 101,
+        "championshipWins": 0,
+        "positions": [
+          6
+        ],
+        "averagePoints": 101,
+        "averagePosition": 6,
+        "pointsPerBudget": 0.8559322033898306,
+        "dnfRate": 7,
+        "podiumRate": 0
+      },
+      {
+        "id": "director-gordon-murray",
+        "name": "Gordon Murray",
+        "budgetCost": 132,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 92,
+        "championshipWins": 0,
+        "positions": [
+          8
+        ],
+        "averagePoints": 92,
+        "averagePosition": 8,
+        "pointsPerBudget": 0.696969696969697,
+        "dnfRate": 5,
+        "podiumRate": 0
+      },
+      {
+        "id": "director-aldo-costa",
+        "name": "Aldo Costa",
+        "budgetCost": 108,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 8,
+        "points": 24,
+        "championshipWins": 0,
+        "positions": [
+          10
+        ],
+        "averagePoints": 24,
+        "averagePosition": 10,
+        "pointsPerBudget": 0.2222222222222222,
+        "dnfRate": 8,
+        "podiumRate": 0
+      }
+    ],
+    "philosophy": [
+      {
+        "id": "philosophy-aggressive",
+        "name": "aggressive",
+        "budgetCost": 0,
+        "appearances": 2,
+        "wins": 1,
+        "podiums": 2,
+        "dnfs": 17,
+        "points": 436,
+        "championshipWins": 1,
+        "positions": [
+          1,
+          3
+        ],
+        "averagePoints": 218,
+        "averagePosition": 2,
+        "pointsPerBudget": 0,
+        "dnfRate": 8.5,
+        "podiumRate": 1
+      },
+      {
+        "id": "philosophy-balanced",
+        "name": "balanced",
+        "budgetCost": 0,
+        "appearances": 4,
+        "wins": 0,
+        "podiums": 1,
+        "dnfs": 19,
+        "points": 513,
+        "championshipWins": 0,
+        "positions": [
+          4,
+          7,
+          2,
+          6
+        ],
+        "averagePoints": 128.25,
+        "averagePosition": 4.75,
+        "pointsPerBudget": 0,
+        "dnfRate": 4.75,
+        "podiumRate": 0.25
+      },
+      {
+        "id": "philosophy-conservative",
+        "name": "conservative",
+        "budgetCost": 0,
+        "appearances": 3,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 14,
+        "points": 171,
+        "championshipWins": 0,
+        "positions": [
+          10,
+          5,
+          9
+        ],
+        "averagePoints": 57,
+        "averagePosition": 8,
+        "pointsPerBudget": 0,
+        "dnfRate": 4.666666666666667,
+        "podiumRate": 0
+      },
+      {
+        "id": "philosophy-qualifying-focused",
+        "name": "qualifying-focused",
+        "budgetCost": 0,
+        "appearances": 1,
+        "wins": 0,
+        "podiums": 0,
+        "dnfs": 5,
+        "points": 92,
+        "championshipWins": 0,
+        "positions": [
+          8
+        ],
+        "averagePoints": 92,
+        "averagePosition": 8,
+        "pointsPerBudget": 0,
+        "dnfRate": 5,
+        "podiumRate": 0
+      }
+    ]
+  },
+  "packageScenarios": [
+    {
+      "packageId": "balanced_package",
+      "packageLabel": "Balanced package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 115.66666666666667,
+      "averagePosition": 5,
+      "winRate": 1,
+      "podiumRate": 0.3333333333333333,
+      "dnfRate": 2.8333333333333335,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "power_package",
+      "packageLabel": "Power package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 132,
+      "averagePosition": 5,
+      "winRate": 1,
+      "podiumRate": 0.3333333333333333,
+      "dnfRate": 2,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "monaco_specialist",
+      "packageLabel": "Monaco specialist",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 9.333333333333334,
+      "averagePosition": 9.666666666666666,
+      "winRate": 1,
+      "podiumRate": 0,
+      "dnfRate": 1.8333333333333333,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "high_speed_aero_package",
+      "packageLabel": "High-speed aero package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 339.6666666666667,
+      "averagePosition": 1,
+      "winRate": 1,
+      "podiumRate": 1,
+      "dnfRate": 2.5,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "wet_weather_package",
+      "packageLabel": "Wet weather package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 43.666666666666664,
+      "averagePosition": 7.666666666666667,
+      "winRate": 1,
+      "podiumRate": 0,
+      "dnfRate": 2,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "reliability_package",
+      "packageLabel": "Reliability package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 80.66666666666667,
+      "averagePosition": 6,
+      "winRate": 1,
+      "podiumRate": 0,
+      "dnfRate": 3.3333333333333335,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "qualifying_package",
+      "packageLabel": "Qualifying package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 104.66666666666667,
+      "averagePosition": 5,
+      "winRate": 1,
+      "podiumRate": 0.3333333333333333,
+      "dnfRate": 2.8333333333333335,
+      "trackTarget": "Autodromo Nazionale Monza"
+    },
+    {
+      "packageId": "development_package",
+      "packageLabel": "Development package",
+      "strategy": "archetype",
+      "difficulty": "standard",
+      "championshipFormat": "standard",
+      "runs": 3,
+      "averagePoints": 54.666666666666664,
+      "averagePosition": 7.666666666666667,
+      "winRate": 1,
+      "podiumRate": 0,
+      "dnfRate": 2.1666666666666665,
+      "trackTarget": "Autodromo Nazionale Monza"
+    }
+  ],
+  "trackBattles": [
+    {
+      "circuitId": "circuit-monza",
+      "circuitName": "Autodromo Nazionale Monza",
+      "expected": [
+        "power_package",
+        "balanced_package"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 6,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 16.333333333333332,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 23.333333333333332,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 3.3333333333333335,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 29.333333333333332,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0.3333333333333333,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 9.333333333333334,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 10.333333333333334,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 1,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "power",
+        "straightLineSpeed",
+        "braking"
+      ],
+      "why": "Monza should reward straight-line speed, engine power and braking conversion."
+    },
+    {
+      "circuitId": "circuit-monaco",
+      "circuitName": "Circuit de Monaco",
+      "expected": [
+        "monaco_specialist",
+        "high_downforce_package"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 9.333333333333332,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 16,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 24.333333333333332,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 1,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 33.666666666666664,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 10.666666666666666,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 13.333333333333334,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 0.3333333333333333,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "qualifyingPace",
+        "slowCorner",
+        "mechanicalGrip"
+      ],
+      "why": "Monaco should reward slow-corner precision, grid position and setup quality."
+    },
+    {
+      "circuitId": "circuit-spa",
+      "circuitName": "Circuit de Spa-Francorchamps",
+      "expected": [
+        "balanced_package",
+        "high_speed_aero_package",
+        "wet_weather_package"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 11.999999999999996,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 18.333333333333332,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 21.666666666666668,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 3,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 33.666666666666664,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 6.333333333333333,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 10,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 0,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "aeroEfficiency",
+        "fastCorner",
+        "wetSkill"
+      ],
+      "why": "Spa should reward aero balance, fast corners and wet versatility."
+    },
+    {
+      "circuitId": "circuit-suzuka",
+      "circuitName": "Suzuka International Racing Course",
+      "expected": [
+        "high_speed_aero_package",
+        "technical_flow_package"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 10.333333333333332,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 15,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 23.333333333333332,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 1.6666666666666667,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 33.666666666666664,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 8,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 10,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 0,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "mediumCorner",
+        "fastCorner",
+        "consistency"
+      ],
+      "why": "Suzuka should reward flow, mid-speed confidence and overall driver rhythm."
+    },
+    {
+      "circuitId": "circuit-singapore",
+      "circuitName": "Marina Bay Street Circuit",
+      "expected": [
+        "reliability_package",
+        "monaco_specialist"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 1.6666666666666679,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 13,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 25.333333333333332,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 0.3333333333333333,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 27,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 8.333333333333334,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 11.666666666666666,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 0,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "consistency",
+        "reliability",
+        "coolingDemand"
+      ],
+      "why": "Singapore should reward low-error packages, reliability and cooling control."
+    },
+    {
+      "circuitId": "circuit-bahrain",
+      "circuitName": "Bahrain International Circuit",
+      "expected": [
+        "power_package",
+        "reliability_package"
+      ],
+      "trackProfiles": [],
+      "winner": "high_speed_aero_package",
+      "runnerUp": "power_package",
+      "gap": 3,
+      "scores": [
+        {
+          "packageId": "balanced_package",
+          "averagePoints": 12.666666666666666,
+          "averagePosition": 1
+        },
+        {
+          "packageId": "power_package",
+          "averagePoints": 22,
+          "averagePosition": 1.1
+        },
+        {
+          "packageId": "monaco_specialist",
+          "averagePoints": 4.333333333333333,
+          "averagePosition": 1.2
+        },
+        {
+          "packageId": "high_speed_aero_package",
+          "averagePoints": 25,
+          "averagePosition": 1.3
+        },
+        {
+          "packageId": "wet_weather_package",
+          "averagePoints": 0.3333333333333333,
+          "averagePosition": 1.4
+        },
+        {
+          "packageId": "reliability_package",
+          "averagePoints": 9.333333333333334,
+          "averagePosition": 1.5
+        },
+        {
+          "packageId": "qualifying_package",
+          "averagePoints": 12.333333333333334,
+          "averagePosition": 1.6
+        },
+        {
+          "packageId": "development_package",
+          "averagePoints": 0.3333333333333333,
+          "averagePosition": 1.7
+        }
+      ],
+      "decisiveAttributes": [
+        "power",
+        "reliability",
+        "coolingDemand"
+      ],
+      "why": "Bahrain should reward strong engines, reliability and thermal management."
+    }
+  ],
+  "pairwiseImpact": [
+    {
+      "component": "driverPrimary",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 164,
+      "deltaPoints": -6,
+      "deltaPointsPct": -0.03529411764705882,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 3.25,
+      "deltaPosition": -0.5,
+      "sampleRuns": 4,
+      "recommendedAction": "If the primary driver impact is too low, increase driverPrimary weight or sharpen qualifying/race score separation."
+    },
+    {
+      "component": "driverSecondary",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 194,
+      "deltaPoints": 24,
+      "deltaPointsPct": 0.1411764705882353,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 2,
+      "deltaPosition": 0.75,
+      "sampleRuns": 4,
+      "recommendedAction": "If the second driver barely matters, increase teamPlay, constructor synergy, or secondary driver contribution."
+    },
+    {
+      "component": "car",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 185.25,
+      "deltaPoints": 15.25,
+      "deltaPointsPct": 0.08970588235294118,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 3.25,
+      "deltaPosition": -0.5,
+      "sampleRuns": 4,
+      "recommendedAction": "If the car is too weak in sensitivity, increase track-fit weights or circuit-specific penalties."
+    },
+    {
+      "component": "engine",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 175.25,
+      "deltaPoints": 5.25,
+      "deltaPointsPct": 0.030882352941176472,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 3,
+      "deltaPosition": -0.25,
+      "sampleRuns": 4,
+      "recommendedAction": "If engines do not shift results enough, increase power-track and cooling penalties."
+    },
+    {
+      "component": "teamPrincipal",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 169,
+      "deltaPoints": -1,
+      "deltaPointsPct": -0.0058823529411764705,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 3.75,
+      "deltaPosition": -1,
+      "sampleRuns": 4,
+      "recommendedAction": "If team principals are negligible, increase operational and strategic influence."
+    },
+    {
+      "component": "technicalDirector",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 140.25,
+      "deltaPoints": -29.75,
+      "deltaPointsPct": -0.175,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 3.75,
+      "deltaPosition": -1,
+      "sampleRuns": 4,
+      "recommendedAction": "If technical directors barely move the needle, strengthen development and setup factors."
+    },
+    {
+      "component": "philosophy",
+      "baselineAveragePoints": 170,
+      "variantAveragePoints": 133.5,
+      "deltaPoints": -36.5,
+      "deltaPointsPct": -0.21470588235294116,
+      "baselineAveragePosition": 2.75,
+      "variantAveragePosition": 4.5,
+      "deltaPosition": -1.75,
+      "sampleRuns": 4,
+      "recommendedAction": "If philosophy is flat, strengthen contextual modifiers and phased development growth."
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "critical",
+      "code": "dominant-driver",
+      "title": "Piloto dominante",
+      "message": "Nick Heidfeld venceu mais de 35% dos campeonatos da bateria.",
+      "context": {
+        "share": 1
+      }
+    },
+    {
+      "severity": "critical",
+      "code": "dominant-constructor",
+      "title": "Chassi dominante",
+      "message": "McLaren MP4-20 aparece em mais de 35% dos campeões de construtores.",
+      "context": {
+        "share": 1
+      }
+    },
+    {
+      "severity": "warning",
+      "code": "secondary-driver-irrelevant",
+      "title": "Segundo piloto irrelevante",
+      "message": "O segundo piloto aparece com menos de 15% da eficiência do líder do grid."
+    },
+    {
+      "severity": "warning",
+      "code": "development-flat",
+      "title": "Development package sem progressão",
+      "message": "A filosofia development-focused não está superando a baseline no terço final esperado."
+    },
+    {
+      "severity": "warning",
+      "code": "monza-no-power",
+      "title": "Monza sem motor forte",
+      "message": "Monza não está sendo claramente premiada por pacotes de potência."
+    },
+    {
+      "severity": "critical",
+      "code": "single-package-domination",
+      "title": "Mesmo pacote dominando tudo",
+      "message": "O mesmo pacote venceu todos os circuitos auditados: high_speed_aero_package."
+    },
+    {
+      "severity": "critical",
+      "code": "driver-dominance",
+      "title": "Dominância excessiva de piloto",
+      "message": "Nick Heidfeld está acima do limite de dominância."
+    },
+    {
+      "severity": "critical",
+      "code": "car-dominance",
+      "title": "Dominância excessiva de chassi",
+      "message": "McLaren MP4-20 está acima do limite de dominância."
+    },
+    {
+      "severity": "critical",
+      "code": "engine-dominance",
+      "title": "Dominância excessiva de motor",
+      "message": "Renault EF15B 1.5 V6 Turbo 1986 está acima do limite de dominância."
+    },
+    {
+      "severity": "warning",
+      "code": "philosophy-dominance",
+      "title": "Filosofia dominante",
+      "message": "aggressive está aparecendo demais entre os campeões."
+    }
+  ]
+}

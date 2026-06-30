@@ -1,0 +1,232 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ─── DRIVER ──────────────────────────────────────────────────────────────────
+model Driver {
+  id                 String   @id @default(cuid())
+  canonicalDriverId  String
+  name               String
+  seasonYear         Int
+  nationality        String
+  nationalityCode    String?
+  tier               String   // S, A, B, C
+  role               String   // primary, secondary
+  era                String   // 60s, 70s, 80s, 90s, 00s, 10s, 20s
+  overall            Float
+  confidenceLevel    String?  @default("medium")
+
+  // Performance attributes (0–100)
+  qualifyingPace     Float
+  racePace           Float
+  wetSkill           Float
+  tireManagement     Float
+  overtaking         Float
+  defending          Float
+  consistency        Float
+  adaptability       Float
+  technicalFeedback  Float
+  pressureHandling   Float
+  aggression         Float
+  teamPlay           Float
+
+  // Risk attributes (0–100, higher = more risky)
+  errorProneness     Float
+  incidentRisk       Float
+  politicalTension   Float
+
+  // Compatibility (JSON strings)
+  preferredCarTraits String   // JSON array: e.g. ["stableRear","strongFrontEnd"]
+  weakCarTraits      String   // JSON array: e.g. ["nervousRear"]
+
+  notes              String   @default("")
+  budgetCost         Float    @default(0)
+  createdAt          DateTime @default(now())
+}
+
+// ─── CAR / CHASSIS ───────────────────────────────────────────────────────────
+model Car {
+  id                   String   @id @default(cuid())
+  name                 String
+  seasonYear           Int
+  teamName             String
+  teamCountryCode      String?
+  tier                 String   // S, A, B, C
+  era                  String
+  overall              Float
+
+  // Handling (0–100)
+  aeroEfficiency       Float
+  slowCorner           Float
+  mediumCorner         Float
+  fastCorner           Float
+  straightLineSpeed    Float
+  mechanicalGrip       Float
+  braking              Float
+
+  // Degradation & Setup
+  tireWear             Float    // higher = better tire preservation, lower = more wear
+  setupWindow          Float    // higher = more flexible
+  reliability          Float    // 0–100, higher = more reliable
+
+  // Development
+  developmentPotential Float
+
+  // Traits (boolean-like 0 or 1)
+  stableRear           Float
+  strongFrontEnd       Float
+  nervousRear          Float
+  traction             Float
+
+  // Text
+  strengths            String   @default("")
+  weaknesses           String   @default("")
+  notes                String   @default("")
+  budgetCost           Float    @default(0)
+  createdAt            DateTime @default(now())
+}
+
+// ─── ENGINE ──────────────────────────────────────────────────────────────────
+model Engine {
+  id                      String   @id @default(cuid())
+  name                    String
+  manufacturer            String
+  manufacturerCountryCode String?
+  seasonYear              Int
+  era                     String
+  overall                 Float
+
+  // Performance (0–100)
+  power                   Float
+  torqueDelivery          Float
+  drivability             Float
+  fuelEfficiency          Float
+  energyRecovery          Float
+  weightEfficiency        Float
+  reliability             Float
+  coolingDemand           Float    // higher = more cooling needed / worse in hot circuits
+  qualifyingMode          Float    // extra power for quali
+  racePaceSustainability  Float    // how well it sustains power in race
+
+  // Compatibility (JSON string array of eras)
+  compatibleEras          String   @default("[]")
+
+  notes                   String   @default("")
+  budgetCost              Float    @default(0)
+  createdAt               DateTime @default(now())
+}
+
+// ─── TEAM PRINCIPAL ──────────────────────────────────────────────────────────
+model TeamPrincipal {
+  id                   String   @id @default(cuid())
+  name                 String
+  nationalityCode      String?
+  era                  String
+
+  // Attributes (0–100)
+  leadership           Float
+  politics             Float
+  crisisManagement     Float
+  driverManagement     Float
+  operationalDiscipline Float
+  strategicPatience    Float
+  riskTolerance        Float
+  developmentCulture   Float
+
+  notes                String   @default("")
+  budgetCost           Float    @default(0)
+  createdAt            DateTime @default(now())
+}
+
+// ─── TECHNICAL DIRECTOR ──────────────────────────────────────────────────────
+model TechnicalDirector {
+  id                       String   @id @default(cuid())
+  name                     String
+  nationalityCode          String?
+  era                      String
+
+  // Attributes (0–100)
+  aerodynamics             Float
+  mechanicalDesign         Float
+  innovation               Float
+  reliabilityFocus         Float
+  developmentSpeed         Float
+  regulationExploitation   Float
+  setupUnderstanding       Float
+  riskProfile              Float    // higher = more aggressive setups
+
+  notes                    String   @default("")
+  budgetCost               Float    @default(0)
+  createdAt                DateTime @default(now())
+}
+
+// ─── CIRCUIT ─────────────────────────────────────────────────────────────────
+model Circuit {
+  id                    String   @id @default(cuid())
+  name                  String
+  country               String
+  countryCode           String?
+  confidenceLevel       String?  @default("medium")
+
+  // Demands (0–100)
+  straightDemand        Float
+  slowCornerDemand      Float
+  mediumCornerDemand    Float
+  fastCornerDemand      Float
+  brakingDemand         Float
+  mechanicalGripDemand  Float
+  aeroDemand            Float
+  tireStress            Float
+
+  // Race factors
+  overtakingDifficulty  Float
+  qualifyingImportance  Float
+  rainProbability       Float
+  safetyCarProbability  Float
+  reliabilityStress     Float
+  driverErrorStress     Float
+
+  notes                 String   @default("")
+  createdAt             DateTime @default(now())
+}
+
+// ─── TEAM PHILOSOPHY ─────────────────────────────────────────────────────────
+model TeamPhilosophy {
+  id                   String   @id @default(cuid())
+  name                 String
+  description          String
+
+  // Modifiers (-1.0 to +1.0, applied as percentage bonus)
+  qualifyingModifier   Float    @default(0)
+  raceModifier         Float    @default(0)
+  reliabilityModifier  Float    @default(0)
+  tireModifier         Float    @default(0)
+  aggressionModifier   Float    @default(0)
+  developmentModifier  Float    @default(0)
+
+  createdAt            DateTime @default(now())
+}
+
+// ─── CAMPAIGN ─────────────────────────────────────────────────────────────────
+model Campaign {
+  id            String   @id @default(cuid())
+  name          String
+  seed          Int
+  raceCount     Int      @default(7)
+
+  // JSON blobs for selected team and results
+  selectedTeam  String   // JSON: { driverPrimaryId, driverSecondaryId, carId, engineId, teamPrincipalId, technicalDirectorId, philosophyId }
+  ghostTeams    String   @default("[]")  // JSON: GhostTeam[]
+  results       String   @default("{}")  // JSON: ChampionshipResult
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}

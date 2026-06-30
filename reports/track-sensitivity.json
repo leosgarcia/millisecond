@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-06-28T22:37:52.334Z",
+  "targets": [
+    {
+      "circuit": "Autodromo Nazionale Monza",
+      "country": "IT",
+      "expected": [
+        "power_package",
+        "balanced_package"
+      ],
+      "scores": [
+        {
+          "variant": "balanced_package",
+          "teamId": "bench-balanced_package",
+          "avgPoints": 8.375,
+          "avgPosition": 5.875
+        },
+        {
+          "variant": "power_package",
+          "teamId": "bench-power_package",
+          "avgPoints": 16.875,
+          "avgPosition": 3.75
+        },
+        {
+          "variant": "monaco_specialist",
+          "teamId": "bench-monaco_specialist",
+          "avgPoints": 24.875,
+          "avgPosition": 2.25
+        },
+        {
+          "variant": "high_downforce_package",
+          "teamId": "bench-high_downforce_package",
+          "avgPoints": 16.5,
+          "avgPosition": 3.5
+        },
+        {
+          "variant": "wet_weather_package",
+          "teamId": "bench-wet_weather_package",
+          "avgPoints": 11,
+          "avgPosition": 4.875
+        },
+        {
+          "variant": "reliability_package",
+          "teamId": "bench-reliability_package",
+          "avgPoints": 22.125,
+          "avgPosition": 2
+        }
+      ],
+      "winner": {
+        "variant": "monaco_specialist",
+        "teamId": "bench-monaco_specialist",
+        "avgPoints": 24.875,
+        "avgPosition": 2.25
+      },
+      "runnerUp": {
+        "variant": "reliability_package",
+        "teamId": "bench-reliability_package",
+        "avgPoints": 22.125,
+        "avgPosition": 2
+      },
+      "gap": 2.75,
+      "baseline": {
+        "variant": "balanced_package",
+        "teamId": "bench-balanced_package",
+        "avgPoints": 8.375,
+        "avgPosition": 5.875
+      },
+      "decisiveAttributes": [
+        "qualifyingPace",
+        "slowCorner",
+        "mechanicalGrip"
+      ],
+      "why": "Low-speed precision and qualifying strength mattered most on Autodromo Nazionale Monza.",
+      "alignment": "monaco_specialist > reliability_package > power_package"
+    },
+    {
+      "circuit": "Circuit de Monaco",
+      "country": "MC",
+      "expected": [
+        "monaco_specialist",
+        "high_downforce_package"
+      ],
+      "scores": [
+        {
+          "variant": "balanced_package",
+          "teamId": "bench-balanced_package",
+          "avgPoints": 9,
+          "avgPosition": 5.625
+        },
+        {
+          "variant": "power_package",
+          "teamId": "bench-power_package",
+          "avgPoints": 13.125,
+          "avgPosition": 4.25
+        },
+        {
+          "variant": "monaco_specialist",
+          "teamId": "bench-monaco_specialist",
+          "avgPoints": 20.25,
+          "avgPosition": 3.125
+        },
+        {
+          "variant": "high_downforce_package",
+          "teamId": "bench-high_downforce_package",
+          "avgPoints": 16.875,
+          "avgPosition": 3.375
+        },
+        {
+          "variant": "wet_weather_package",
+          "teamId": "bench-wet_weather_package",
+          "avgPoints": 8.625,
+          "avgPosition": 5.625
+        },
+        {
+          "variant": "reliability_package",
+          "teamId": "bench-reliability_package",
+          "avgPoints": 22.125,
+          "avgPosition": 2.875
+        }
+      ],
+      "winner": {
+        "variant": "reliability_package",
+        "teamId": "bench-reliability_package",
+        "avgPoints": 22.125,
+        "avgPosition": 2.875
+      },
+      "runnerUp": {
+        "variant": "monaco_specialist",
+        "teamId": "bench-monaco_specialist",
+        "avgPoints": 20.25,
+        "avgPosition": 3.125
+      },
+      "gap": 1.875,
+      "baseline": {
+        "variant": "balanced_package",
+        "teamId": "bench-balanced_package",
+        "avgPoints": 9,
+        "avgPosition": 5.625
+      },
+      "decisiveAttributes": [
+        "reliability",
+        "consistency",
+        "tireWear"
+      ],
+      "why": "Consistency and low-risk execution mattered most on Circuit de Monaco.",
+      "alignment": "reliability_package > monaco_specialist > high_downforce_package"
+    },
+    {
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "BE",
+      "expected": [
+        "balanced_package",
+        "high_downforce_package",
+        "wet_weather_package"
+      ],
+      "scores": [
+        {
+          "variant": "balanced_package",
+          "teamId": "bench-balanced_package",
+          "avgPoints": 5.875,
+          "avgPosition": 6.25
+        },
+        {
+          "variant": "power_package",
+          "teamId": "bench-power_package",
+          "avgPoints": 15.375,
+          "avgPosition": 3.75
+        },
+        {
+          "variant": "monaco_specialist",
+          "teamId": "bench-monaco_specialist",
+          "avgPoints": 23.75,
+          "avgPosition": 3
+        },
+        {
+          "variant": "high_downforce_package",
+          "teamId": "bench-high_downforce_package",
+          "avgPoints": 17.75,
+          "avgPosition": 3.125
+        },
+        {
+          "variant": "wet_weather_package",
+          "teamId": "bench-wet_weather_package",
+          "avgPoints": 9.75,
+          "avgPosition": 5.375
+        },
+        {
+          "variant": "reliability_package",
+          "teamId": "bench-reliability_package",
+          "avgPoints": 22.5,
+          "avgPosition": 2.375
+        }
+      ],
+      "winner": {
+        "variant": "monaco_specialist",
+        "teamId": "bench-monaco_specialist",
+        "avgPoints": 23.75,
+        "avgPosition": 3
+      },
+      "runnerUp": {
+        "variant": "reliability_package",
+        "teamId": "bench-reliability_package",
+        "avgPoints": 22.5,
+        "avgPosition": 2.375
+      },
+      "gap": 1.25,
+      "baseline": {
+        "variant": "balanced_package",
+        "teamId": "bench-balanced_package",
+        "avgPoints": 5.875,
+        "avgPosition": 6.25
+      },
+      "decisiveAttributes": [
+        "qualifyingPace",
+        "slowCorner",
+        "mechanicalGrip"
+      ],
+      "why": "Low-speed precision and qualifying strength mattered most on Circuit de Spa-Francorchamps.",
+      "alignment": "monaco_specialist > reliability_package > high_downforce_package"
+    },
+    {
+      "circuit": "Suzuka International Racing Course",
+      "country": "JP",
+      "expected": [
+        "high_downforce_package",
+        "monaco_specialist"
+      ],
+      "scores": [
+        {
+          "variant": "balanced_package",
+          "teamId": "bench-balanced_package",
+          "avgPoints": 8.875,
+          "avgPosition": 5.625
+        },
+        {
+          "variant": "power_package",
+          "teamId": "bench-power_package",
+          "avgPoints": 14.25,
+          "avgPosition": 4.125
+        },
+        {
+          "variant": "monaco_specialist",
+          "teamId": "bench-monaco_specialist",
+          "avgPoints": 23.375,
+          "avgPosition": 2.875
+        },
+        {
+          "variant": "high_downforce_package",
+          "teamId": "bench-high_downforce_package",
+          "avgPoints": 17.875,
+          "avgPosition": 3.125
+        },
+        {
+          "variant": "wet_weather_package",
+          "teamId": "bench-wet_weather_package",
+          "avgPoints": 8.5,
+          "avgPosition": 5.5
+        },
+        {
+          "variant": "reliability_package",
+          "teamId": "bench-reliability_package",
+          "avgPoints": 22,
+          "avgPosition": 2.25
+        }
+      ],
+      "winner": {
+        "variant": "monaco_specialist",
+        "teamId": "bench-monaco_specialist",
+        "avgPoints": 23.375,
+        "avgPosition": 2.875
+      },
+      "runnerUp": {
+        "variant": "reliability_package",
+        "teamId": "bench-reliability_package",
+        "avgPoints": 22,
+        "avgPosition": 2.25
+      },
+      "gap": 1.375,
+      "baseline": {
+        "variant": "balanced_package",
+        "teamId": "bench-balanced_package",
+        "avgPoints": 8.875,
+        "avgPosition": 5.625
+      },
+      "decisiveAttributes": [
+        "qualifyingPace",
+        "slowCorner",
+        "mechanicalGrip"
+      ],
+      "why": "Low-speed precision and qualifying strength mattered most on Suzuka International Racing Course.",
+      "alignment": "monaco_specialist > reliability_package > high_downforce_package"
+    },
+    {
+      "circuit": "Marina Bay Street Circuit",
+      "country": "US",
+      "expected": [
+        "reliability_package",
+        "monaco_specialist"
+      ],
+      "scores": [
+        {
+          "variant": "balanced_package",
+          "teamId": "bench-balanced_package",
+          "avgPoints": 7.5,
+          "avgPosition": 5.875
+        },
+        {
+          "variant": "power_package",
+          "teamId": "bench-power_package",
+          "avgPoints": 11.875,
+          "avgPosition": 4.625
+        },
+        {
+          "variant": "monaco_specialist",
+          "teamId": "bench-monaco_specialist",
+          "avgPoints": 25.25,
+          "avgPosition": 2.625
+        },
+        {
+          "variant": "high_downforce_package",
+          "teamId": "bench-high_downforce_package",
+          "avgPoints": 18.5,
+          "avgPosition": 3.125
+        },
+        {
+          "variant": "wet_weather_package",
+          "teamId": "bench-wet_weather_package",
+          "avgPoints": 12.75,
+          "avgPosition": 4.5
+        },
+        {
+          "variant": "reliability_package",
+          "teamId": "bench-reliability_package",
+          "avgPoints": 23.125,
+          "avgPosition": 2
+        }
+      ],
+      "winner": {
+        "variant": "monaco_specialist",
+        "teamId": "bench-monaco_specialist",
+        "avgPoints": 25.25,
+        "avgPosition": 2.625
+      },
+      "runnerUp": {
+        "variant": "reliability_package",
+        "teamId": "bench-reliability_package",
+        "avgPoints": 23.125,
+        "avgPosition": 2
+      },
+      "gap": 2.125,
+      "baseline": {
+        "variant": "balanced_package",
+        "teamId": "bench-balanced_package",
+        "avgPoints": 7.5,
+        "avgPosition": 5.875
+      },
+      "decisiveAttributes": [
+        "qualifyingPace",
+        "slowCorner",
+        "mechanicalGrip"
+      ],
+      "why": "Low-speed precision and qualifying strength mattered most on Marina Bay Street Circuit.",
+      "alignment": "monaco_specialist > reliability_package > high_downforce_package"
+    }
+  ],
+  "repeatedWinner": null,
+  "warnings": [
+    "CRITICAL: Autodromo Nazionale Monza was won by monaco_specialist, which suggests power tracks are not differentiated enough."
+  ]
+}

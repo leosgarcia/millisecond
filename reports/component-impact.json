@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-06-28T22:59:43.103Z",
+  "season": "standard",
+  "report": [
+    {
+      "category": "driverPrimary",
+      "baselinePoints": 150.4,
+      "highPoints": 143.4,
+      "lowPoints": 74.4,
+      "delta": 69,
+      "impactShare": 13.939393939393938
+    },
+    {
+      "category": "driverSecondary",
+      "baselinePoints": 164.2,
+      "highPoints": 190.2,
+      "lowPoints": 112,
+      "delta": 78.19999999999999,
+      "impactShare": 15.797979797979794
+    },
+    {
+      "category": "car",
+      "baselinePoints": 117,
+      "highPoints": 204.4,
+      "lowPoints": 103.8,
+      "delta": 100.60000000000001,
+      "impactShare": 20.323232323232325
+    },
+    {
+      "category": "engine",
+      "baselinePoints": 137.2,
+      "highPoints": 241.4,
+      "lowPoints": 41.2,
+      "delta": 200.2,
+      "impactShare": 40.444444444444436
+    },
+    {
+      "category": "teamPrincipal",
+      "baselinePoints": 150.4,
+      "highPoints": 153.8,
+      "lowPoints": 124.2,
+      "delta": 29.60000000000001,
+      "impactShare": 5.979797979797981
+    },
+    {
+      "category": "technicalDirector",
+      "baselinePoints": 165,
+      "highPoints": 133.6,
+      "lowPoints": 131,
+      "delta": 2.5999999999999943,
+      "impactShare": 0.5252525252525241
+    },
+    {
+      "category": "philosophy",
+      "baselinePoints": 143,
+      "highPoints": 147,
+      "lowPoints": 132.2,
+      "delta": 14.800000000000011,
+      "impactShare": 2.989898989898992
+    }
+  ]
+}

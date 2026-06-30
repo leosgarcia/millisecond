@@ -1,0 +1,46 @@
+[
+  {
+    "id": "philosophy-balanced",
+    "name": "Balanced",
+    "description": "Uma abordagem equilibrada, sem grandes forças ou fraquezas.",
+    "qualifyingModifier": 0.0,
+    "raceModifier": 0.0,
+    "reliabilityModifier": 0.0,
+    "tireModifier": 0.0,
+    "aggressionModifier": 0.0,
+    "developmentModifier": 0.0
+  },
+  {
+    "id": "philosophy-aggressive",
+    "name": "Aggressive",
+    "description": "Foco total em performance bruta, sacrificando confiabilidade e pneus.",
+    "qualifyingModifier": 0.05,
+    "raceModifier": 0.02,
+    "reliabilityModifier": -0.05,
+    "tireModifier": -0.05,
+    "aggressionModifier": 0.1,
+    "developmentModifier": 0.0
+  },
+  {
+    "id": "philosophy-conservative",
+    "name": "Conservative",
+    "description": "Foco em terminar corridas e gerenciar equipamentos.",
+    "qualifyingModifier": -0.05,
+    "raceModifier": -0.02,
+    "reliabilityModifier": 0.1,
+    "tireModifier": 0.05,
+    "aggressionModifier": -0.1,
+    "developmentModifier": 0.0
+  },
+  {
+    "id": "philosophy-development",
+    "name": "Development-Focused",
+    "description": "Sacrifica performance imediata para garantir melhorias rápidas no carro.",
+    "qualifyingModifier": -0.02,
+    "raceModifier": -0.02,
+    "reliabilityModifier": 0.0,
+    "tireModifier": 0.0,
+    "aggressionModifier": 0.0,
+    "developmentModifier": 0.15
+  }
+]

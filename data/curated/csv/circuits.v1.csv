@@ -1,0 +1,13 @@
+id,name,country,straightDemand,slowCornerDemand,mediumCornerDemand,fastCornerDemand,brakingDemand,mechanicalGripDemand,aeroDemand,tireStress,overtakingDifficulty,qualifyingImportance,rainProbability,safetyCarProbability,reliabilityStress,driverErrorStress,notes,confidence_level
+"circuit-monaco","Circuit de Monaco","Monaco",50,98,60,50,75,95,95,60,99,98,25,80,70,95,"Ultimate slow corner and traction test. Track position is everything.","high"
+"circuit-monza","Autodromo Nazionale Monza","Italy",99,75,60,85,95,80,50,75,65,70,20,40,95,70,"The Temple of Speed. Punishes weak engines and draggy cars.","high"
+"circuit-spa","Circuit de Spa-Francorchamps","Belgium",85,65,80,95,75,70,75,85,60,65,60,55,85,80,"Requires an incredibly balanced car due to long straights and fast sweeping corners.","high"
+"circuit-interlagos","Autódromo José Carlos Pace (Interlagos)","Brazil",80,85,80,70,75,85,80,75,65,70,50,60,75,75,"Flowing and rhythmic, often produces chaotic races due to weather.","high"
+"circuit-silverstone","Silverstone Circuit","UK",75,60,80,98,65,65,90,95,70,75,45,45,70,70,"High aero and tire stress demands. Rewards cars with a strong front end.","high"
+"circuit-suzuka","Suzuka International Racing Course","Japan",75,70,85,95,70,70,95,90,85,85,40,50,75,85,"One of the ultimate driver's tracks. Highly aero sensitive.","high"
+"circuit-hungaroring","Hungaroring","Hungary",55,85,90,65,75,85,95,75,90,90,15,35,75,75,"Monaco without the walls. Rhythm is crucial.","high"
+"circuit-singapore","Marina Bay Street Circuit","Singapore",65,95,75,55,90,95,95,80,90,95,35,95,90,98,"The toughest physical and mental test. Strategy highly influenced by SC.","high"
+"circuit-baku","Baku City Circuit","Azerbaijan",95,90,65,55,90,85,60,65,65,70,10,80,75,90,"Extreme dichotomy of tight corners and huge straights.","high"
+"circuit-abudhabi","Yas Marina Circuit","UAE",80,85,75,65,85,85,80,75,75,80,5,40,70,65,"Strong traction needed for Sector 3, good top speed for Sectors 1/2.","high"
+"circuit-barcelona","Circuit de Barcelona-Catalunya","Spain",75,65,85,85,75,75,90,90,85,85,15,30,70,65,"The ultimate test track. A car fast here is fast anywhere.","high"
+"circuit-bahrain","Bahrain International Circuit","Bahrain",85,85,70,65,95,90,75,95,60,70,5,35,80,65,"Massive test of rear traction and tire management. Strong engines shine.","high"

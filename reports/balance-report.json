@@ -1,0 +1,140 @@
+[
+  {
+    "difficulty": "casual",
+    "playerWinRate": "80.0",
+    "playerAvgPoints": "183.5",
+    "championDistribution": [
+      {
+        "name": "Mercedes Fake Base",
+        "wins": 8,
+        "percentage": "80.0"
+      },
+      {
+        "name": "McLaren 2005",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Red Bull 2021",
+        "wins": 1,
+        "percentage": "10.0"
+      }
+    ]
+  },
+  {
+    "difficulty": "standard",
+    "playerWinRate": "30.0",
+    "playerAvgPoints": "163.1",
+    "championDistribution": [
+      {
+        "name": "Mercedes Fake Base",
+        "wins": 3,
+        "percentage": "30.0"
+      },
+      {
+        "name": "Ferrari 2002",
+        "wins": 2,
+        "percentage": "20.0"
+      },
+      {
+        "name": "Red Bull 2023",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "McLaren 1988",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Mercedes 2014",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Red Bull 2011",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Ferrari 2004",
+        "wins": 1,
+        "percentage": "10.0"
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "playerWinRate": "60.0",
+    "playerAvgPoints": "168.8",
+    "championDistribution": [
+      {
+        "name": "Mercedes Fake Base",
+        "wins": 6,
+        "percentage": "60.0"
+      },
+      {
+        "name": "Red Bull 2013",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Williams 1992",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Red Bull 2011",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Red Bull 2023",
+        "wins": 1,
+        "percentage": "10.0"
+      }
+    ]
+  },
+  {
+    "difficulty": "legend",
+    "playerWinRate": "30.0",
+    "playerAvgPoints": "157.8",
+    "championDistribution": [
+      {
+        "name": "Mercedes Fake Base",
+        "wins": 3,
+        "percentage": "30.0"
+      },
+      {
+        "name": "McLaren 1988",
+        "wins": 2,
+        "percentage": "20.0"
+      },
+      {
+        "name": "Williams 1993",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Mercedes 2014",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Ferrari 2004",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Ferrari 2007",
+        "wins": 1,
+        "percentage": "10.0"
+      },
+      {
+        "name": "Ferrari 2002",
+        "wins": 1,
+        "percentage": "10.0"
+      }
+    ]
+  }
+]

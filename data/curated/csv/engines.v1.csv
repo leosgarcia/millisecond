@@ -1,0 +1,37 @@
+id,name,manufacturer,manufacturerCountryCode,seasonYear,era,overall,power,torqueDelivery,drivability,fuelEfficiency,energyRecovery,weightEfficiency,reliability,coolingDemand,qualifyingMode,racePaceSustainability,compatibleEras,notes,confidence_level,budgetCost
+engine-cosworth-dfv-1978,Cosworth DFV 3.0 V8 1978,Cosworth,GB,1978,classic,92,92,94,96,92,50,94,95,92,92,95,"[""classic""]","Avaliado por força relativa à própria era; motor histórico, versátil, confiável e amplamente dominante no contexto clássico.",high,150
+engine-tag-porsche-tte-po1-1984,TAG Porsche TTE PO1 1.5 V6 Turbo 1984,TAG Porsche,DE,1984,turbo,95,97,91,91,85,50,90,94,88,96,95,"[""turbo""]","Conjunto turbo extremamente competitivo, forte em corrida e mais equilibrado que muitos rivais da era turbo.",high,162
+engine-honda-ra166e-1986,Honda RA166E 1.5 V6 Turbo 1986,Honda,JP,1986,turbo,96,100,89,86,85,50,90,88,82,100,92,"[""turbo""]","Potência e classificação excepcionais, com maior risco térmico e entrega mais agressiva.",high,160
+engine-renault-ef15b-1986,Renault EF15B 1.5 V6 Turbo 1986,Renault,FR,1986,turbo,94,99,88,84,82,50,90,78,78,100,86,"[""turbo""]","Muito forte em potência e classificação, mas com risco térmico e confiabilidade inferiores aos motores mais equilibrados.",high,140
+engine-honda-ra167e-1987,Honda RA167E 1.5 V6 Turbo 1987,Honda,JP,1987,turbo,97,100,90,88,86,50,90,92,85,100,94,"[""turbo""]","Evolução mais madura do turbo Honda, ainda brutal em potência, com confiabilidade melhor.",high,168
+engine-honda-ra168e-1988,Honda RA168E 1.5 V6 Turbo 1988,Honda,JP,1988,80s,99,99,90,88,95,50,85,96,88,99,96,"""[\""80s\""]""",The ultimate 80s turbo. Dominated 1988 with McLaren.,high,178
+engine-renault-rs4-1992,Renault RS4 3.5 V10 1992,Renault,FR,1992,90s,95,94,93,94,85,50,90,95,90,94,95,"""[\""90s\""]""",The V10 that powered the dominant Williams FW14B.,high,145
+engine-renault-rs5-1993,Renault RS5 3.5 V10 1993,Renault,FR,1993,90s,96,95,94,94,85,50,90,97,90,95,96,"""[\""90s\""]""","Evolution of the RS4, powered the FW15C.",high,155
+engine-ford-zetec-r-1994,Ford Zetec-R 3.5 V8 1994,Ford,US,1994,90s,88,85,88,90,90,50,95,90,86,85,89,"""[\""90s\""]""","Powered Schumacher's first title, though lacked pure power against Renault.",high,105
+engine-renault-rs7-1995,Renault RS7 3.0 V10 1995,Renault,FR,1995,90s,98,97,94,95,90,50,90,96,90,97,96,"""[\""90s\""]""",Powered both Benetton and Williams in 1995.,high,168
+engine-yamaha-ox11a-1997,Yamaha OX11A 3.0 V10 1997,Yamaha,JP,1997,v10,82,82,82,82,82,50,85,75,78,80,78,"[""v10""]",,high,65
+engine-supertec-fb01-1999,Supertec FB01 3.0 V10 1999,Supertec,FR,1999,v10,86,86,86,88,85,50,88,88,86,84,87,"[""v10""]",,high,82
+engine-ferrari-049-2000,Ferrari 049 3.0 V10 2000,Ferrari,IT,2000,v10,95,95,94,94,90,50,95,96,90,95,95,"[""v10""]",,high,150
+engine-peugeot-a20-2000,Peugeot A20 3.0 V10 2000,Peugeot,FR,2000,v10,84,88,86,82,84,50,86,70,75,85,76,"[""v10""]",,high,68
+engine-ferrari-tipo050-2001,Ferrari Tipo 050 3.0 V10 2001,Ferrari,IT,2001,v10,96,96,95,95,90,50,95,97,91,95,96,"[""v10""]",,high,156
+engine-ferrari-tipo051-2002,Ferrari Tipo 051 3.0 V10 2002,Ferrari,IT,2002,00s,98,96,95,95,90,50,95,98,92,96,97,"""[\""00s\""]""","The heart of the dominant F2002. Not the absolute most powerful, but the best overall package.",high,166
+engine-bmw-p83-2003,BMW P83 3.0 V10 2003,BMW,DE,2003,v10,94,100,95,91,86,50,95,83,84,99,90,"[""v10""]","Motor extremamente potente, referência em velocidade de reta, mas com pacote geral menos completo e confiabilidade inferior aos melhores conjuntos dominantes.",high,145
+engine-bmw-p845-2004,BMW P84/5 3.0 V10 2004,BMW,DE,2004,v10,94,99,95,91,86,50,95,85,85,98,90,"[""v10""]",,high,143
+engine-ferrari-tipo053-2004,Ferrari Tipo 053 3.0 V10 2004,Ferrari,IT,2004,00s,99,98,96,96,90,50,95,99,92,98,98,"""[\""00s\""]""",Powered the F2004. The peak of the V10 era.,high,178
+engine-honda-ra005e-2005,Honda RA005E 3.0 V10 2005,Honda,JP,2005,v10,93,96,93,91,88,50,92,88,84,95,90,"[""v10""]","Forte em potência, mas menos completo e menos confiável que os melhores V10.",high,125
+engine-mercedes-fo110r-2005,Mercedes FO110R 3.0 V10 2005,Mercedes,DE,2005,00s,92,99,95,92,85,50,95,72,82,99,88,"""[\""00s\""]""","Incredibly fast but very fragile, costing Raikkonen the 2005 title.",high,135
+engine-renault-rs25-2005,Renault RS25 3.0 V10 2005,Renault,FR,2005,00s,95,92,93,96,90,50,95,96,91,91,96,"""[\""00s\""]""","Famous for its drivability and traction, masking a top speed deficit.",high,145
+engine-toyota-rvx-05-2005,Toyota RVX-05 3.0 V10 2005,Toyota,JP,2005,v10,93,95,92,91,88,50,92,92,87,94,91,"[""v10""]",,high,125
+engine-renault-rs26-2006,Renault RS26 2.4 V8 2006,Renault,FR,2006,00s,95,93,93,96,90,50,95,96,91,93,96,"""[\""00s\""]""","First of the V8s, powered Alonso's second title.",high,146
+engine-ferrari-056-2007,Ferrari 056 2.4 V8 2007,Ferrari,IT,2007,00s,96,96,94,94,85,50,95,95,90,96,95,"""[\""00s\""]""",Powered Kimi to the 2007 title.,high,154
+engine-mercedes-fo108v-2008,Mercedes FO108V 2.4 V8 2008,Mercedes,DE,2008,00s,97,96,94,94,90,50,95,96,90,95,95,"""[\""00s\""]""","The benchmark V8 engine, later frozen for the V8 era.",high,158
+engine-mercedes-fo108w-2009,Mercedes FO108W 2.4 V8 2009,Mercedes,DE,2009,00s,98,97,94,94,95,50,95,97,90,96,96,"""[\""00s\"",\""10s\""]""",Powered Brawn GP. Widely considered the best V8.,high,162
+engine-renault-rs27-2011,Renault RS27 2.4 V8 2011,Renault,FR,2011,10s,96,89,92,95,98,50,98,95,88,92,95,"""[\""10s\""]""",Perfectly optimized for exhaust blowing.,high,147
+engine-renault-rs27-2013,Renault RS27 2.4 V8 2013,Renault,FR,2013,10s,97,90,92,95,95,50,98,96,88,93,96,"""[\""10s\""]""",The peak of off-throttle exhaust blowing.,high,150
+engine-mercedes-pu106a-2014,Mercedes PU106A Hybrid 2014,Mercedes,DE,2014,10s,99,100,97,95,95,99,90,95,90,99,98,"""[\""10s\""]""",The most dominant engine relative to the field in modern history.,high,180
+engine-mercedes-m11-2020,Mercedes M11 EQ Performance 2020,Mercedes,DE,2020,20s,99,99,98,97,95,98,95,98,92,99,99,"""[\""20s\""]""",The ultimate evolution of the Mercedes hybrid.,high,180
+engine-honda-ra621h-2021,Honda RA621H 1.6 V6 Turbo Hybrid 2021,Honda,JP,2021,20s,97,97,96,95,95,98,98,94,88,95,96,"""[\""20s\""]""",The engine that finally fought Mercedes on equal terms.,high,160
+engine-ferrari-066-7-2022,Ferrari 066/7 1.6 V6 Turbo Hybrid 2022,Ferrari,IT,2022,20s,96,99,96,93,90,95,90,78,82,99,88,"""[\""20s\""]""",Incredibly fast but structurally flawed in its first year.,high,150
+engine-rbpt-h001-2022,RBPT / Honda H001 1.6 V6 t,Honda,JP,2022,20s,98,98,95,95,95,98,95,95,85,95,98,"""[\""20s\""]""",Powered the start of the Red Bull ground effect dominance.,high,167
+engine-honda-rbpt-2023,Honda RBPT 1.6 V6 Turbo Hybrid 2023,Honda,JP,2023,20s,99,98,97,96,98,99,95,98,91,96,98,"""[\""20s\""]""",The benchmark of the current era in race trim.,high,174
+engine-mercedes-m15-2024,Mercedes M15 1.6 V6 Turbo Hybrid 2024,Mercedes,DE,2024,20s,97,95,94,94,95,95,95,94,88,94,94,"""[\""20s\""]""",Powered the McLaren MCL38 resurgence.,medium,150

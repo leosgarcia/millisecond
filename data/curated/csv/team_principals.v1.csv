@@ -1,0 +1,21 @@
+id,name,nationalityCode,era,tier,leadership,politics,crisisManagement,driverManagement,operationalDiscipline,strategicPatience,riskTolerance,developmentCulture,notes,confidence_level,budgetCost
+principal-andreas-seidl,Andreas Seidl,DE,10s-20s,B,84,78,84,86,90,88,66,88,"Perfil moderno, disciplinado e estruturador, bom para reconstrução e operação consistente.",high,78
+principal-christian-horner,Christian Horner,GB,10s-20s,S,92,92,91,86,90,88,86,94,"Forte em política, competitividade e sustentação de estrutura vencedora, com maior tolerância a ambientes agressivos.",high,102
+principal-colin-chapman,Colin Chapman,GB,60s-70s,S,90,80,76,82,68,78,100,100,"Inovador extremo e revolucionário tecnicamente, mas com alto risco e menor disciplina operacional/confiabilidade.",high,88
+principal-cyril-abiteboul,Cyril Abiteboul,FR,10s-20s,C,76,80,72,74,76,74,72,78,"Chefe moderno de equipe média/fábrica, útil como opção barata, mas sem impacto de elite.",medium,54
+principal-eddie-jordan,Eddie Jordan,IE,90s-00s,B,84,88,80,82,76,72,90,80,"Forte em oportunidade, política e risco, capaz de bons picos competitivos, mas menos consistente operacionalmente.",high,72
+principal-enzo-ferrari,Enzo Ferrari,IT,50s-80s,S,99,98,82,58,72,80,88,96,"Figura fundadora e política máxima, enorme cultura competitiva e técnica, mas gestão de pilotos frequentemente dura, instável e emocional.",high,96
+principal-flavio-briatore,Flavio Briatore,IT,90s-00s,B,86,96,84,82,72,78,92,82,"Muito forte politicamente e na construção oportunista de equipes competitivas, mas com menor disciplina operacional e maior risco institucional.",high,82
+principal-gunther-steiner,Günther Steiner,IT,10s-20s,C,76,78,72,68,72,68,86,70,"Perfil agressivo e midiático, útil como opção barata, mas com limitações em disciplina e gestão de pilotos.",medium,50
+principal-guy-ligier,Guy Ligier,FR,70s-90s,C,78,84,74,76,72,74,78,76,"Perfil político e nacionalista forte, útil para equipes médias, mas sem excelência operacional comparável aos grandes chefes.",medium,58
+principal-jean-todt,Jean Todt,FR,90s-00s,S,98,94,96,98,99,96,72,97,"Estruturador de equipe histórica, excelência operacional, controle de hierarquia e construção de ciclo vencedor.",high,122
+principal-jean-pierre-jabouille,Jean-Pierre Jabouille / Renault Works Archetype,FR,70s-90s,B,82,78,76,76,80,88,92,94,"Arquétipo de projeto de fábrica inovador, forte em desenvolvimento e risco técnico, mas com menor estabilidade imediata.",high,78
+principal-ken-tyrrell,Ken Tyrrell,GB,70s-90s,A,90,82,88,92,86,88,74,90,"Excelente em ambiente de equipe independente, bom gestor de pilotos e construtor de estruturas competitivas com recursos limitados.",high,88
+principal-mattia-binotto,Mattia Binotto,IT,10s-20s,B,78,76,68,78,70,82,72,92,"Muito forte tecnicamente e em desenvolvimento, mas penalizado por execução operacional e gestão de crise.",high,68
+principal-otmar-szafnauer,Otmar Szafnauer,RO,10s-20s,B,80,82,82,84,84,82,68,78,"Gestor sólido de equipe média, bom em operação eficiente e estabilidade, mas sem teto de elite.",high,70
+principal-peter-sauber,Peter Sauber,CH,80s-00s,B,86,80,86,88,88,92,64,86,"Perfil estável, paciente e eficiente, bom para desenvolver equipe média e reduzir risco.",high,76
+principal-ron-dennis,Ron Dennis,GB,80s-00s,A,95,88,86,78,99,92,74,96,"Obsessive for operational excellence and technical detail, but often difficult with strong driver pairings.",high,106
+principal-ross-brawn,Ross Brawn,GB,90s-00s,S,92,88,96,90,96,98,76,99,"Perfil técnico-estratégico excepcional, leitura de corrida e desenvolvimento superiores, menos político que chefes corporativos.",high,112
+principal-frank-williams,Sir Frank Williams,GB,80s-90s,A,94,84,88,72,90,86,82,95,"Grande construtor de equipe e cultura técnica, forte em desenvolvimento, mas menos orientado à gestão política de pilotos.",high,92
+principal-toto-wolff,Toto Wolff,AT,10s-20s,S,96,95,94,94,97,95,76,96,"Forte em gestão corporativa, estabilidade, disciplina operacional e manutenção de domínio em era híbrida.",high,118
+principal-zak-brown,Zak Brown,US,10s-20s,B,88,90,86,86,85,90,78,88,"Forte em gestão comercial, reconstrução institucional e direção estratégica, mas ainda abaixo dos maiores ciclos dominantes históricos.",medium,86
