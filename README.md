@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🚀 Millisecond</h1>
-  <p><strong>A blazing fast, robust, and modern Next.js web application</strong></p>
+  <p><strong>A blazing fast, robust, and modern Motorsport Management Game built with Next.js</strong></p>
   
   [![Next.js](https://img.shields.io/badge/Next.js-16.2.9-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
   [![React](https://img.shields.io/badge/React-19.2.4-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -15,20 +15,21 @@
 
 ## 📖 About The Project
 
-**Millisecond** is engineered for speed, reliability, and developer experience. Built on top of the latest features of **Next.js 16** and **React 19**, it ensures optimal performance right out of the box. The project adopts **Tailwind CSS v4** for sleek, utility-first styling and leverages **Prisma** with a **Better-SQLite3** adapter for an incredibly fast and type-safe database layer. 
+**Millisecond** is a comprehensive and high-performance **Motorsport Management Game**. Manage your own racing team, oversee drivers, upgrade cars and engines, and strategize for various circuits through an advanced simulation engine. Built on top of the latest features of **Next.js 16** and **React 19**, it ensures an optimal and immersive experience. 
 
-Data validation is strictly handled by **Zod**, and code quality is maintained automatically via **ESLint** and **Prettier**.
+The project adopts **Tailwind CSS v4** for sleek, utility-first styling and leverages **Prisma** with a **Better-SQLite3** adapter for an incredibly fast and type-safe database layer to store complex game simulation states. Data validation is strictly handled by **Zod**, and code quality is maintained automatically via **ESLint** and **Prettier**.
 
 ---
 
 ## ✨ Features
 
-- **Blazing Fast UI**: Powered by React 19 and Next.js 16.
-- **Type-Safe ORM**: Prisma perfectly integrated with TypeScript.
+- **Motorsport Management Simulation**: Oversee teams, drivers, engines, and cars to dominate the racing circuits.
+- **Advanced Race Simulation Engine**: Custom-built logic to handle realistic racing data and scenarios.
+- **Blazing Fast UI**: Powered by React 19 and Next.js 16 for a responsive management dashboard.
+- **Type-Safe ORM**: Prisma perfectly integrated with TypeScript to model complex game data.
 - **Rapid Styling**: Next-generation utility classes with TailwindCSS v4.
-- **Robust Testing**: Fast and concurrent unit testing powered by Vitest.
-- **Strict Linting & Formatting**: Pre-configured ESLint and Prettier setup.
-- **Built-in Scripts**: Out-of-the-box audit and validation scripts to guarantee data and component integrity.
+- **Robust Testing**: Fast and concurrent unit testing powered by Vitest to ensure simulation accuracy.
+- **Built-in Scripts**: Out-of-the-box audit and validation scripts to guarantee game data integrity.
 
 ---
 
