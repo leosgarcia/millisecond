@@ -118,3 +118,9 @@ millisecond/
 ## 📜 License
 
 This project is licensed under the **MIT License**.
+
+---
+<div align="center">
+  <a href="https://buymeacoffee.com/leosgarcia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</div>
+
