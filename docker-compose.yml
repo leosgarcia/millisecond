@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: millisecond:latest
+    container_name: millisecond-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./dev.db:/app/dev.db
+      - ./.env:/app/.env
